@@ -1,0 +1,16 @@
+{% extends "layout.html" %}
+
+{% block body %}
+<h2>Introduction</h2>
+
+<form action="/intro">
+	Name:<br>
+	<input type="text" name="name"><br>
+	Fun Fact:<br>
+	<textarea type="text" name="funfact"></textarea><br>
+	<br>
+	<input type="submit" value="Submit"><br>
+	<input type="reset" value="Introduce other member">
+</form> 
+
+{% endblock %}
